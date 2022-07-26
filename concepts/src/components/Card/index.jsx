@@ -7,7 +7,7 @@ const Card = ({ pokemon }) => {
         <StyledCardContainer>
             <h2>{pokemon.name}</h2>
             <button onClick={() => navigate(`/pokemon/${pokemon.name}`)}>
-                Ir para página
+                Página
             </button>
         </StyledCardContainer>
     )

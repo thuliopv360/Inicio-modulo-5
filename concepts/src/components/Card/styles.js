@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
 export const StyledCardContainer = styled.div`
-  width: 5vw;
-  height: 10vh;
+  width: 10vw;
+  height: 15vh;
   border: 1px solid #111;
   border-radius: 10px;
+  margin: 1rem;
 
   h2 {
     color: red;
